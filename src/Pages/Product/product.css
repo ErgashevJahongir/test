@@ -1,0 +1,221 @@
+.product-card {
+    background-color: var(--bg-colar);
+}
+
+.product {
+    padding: 30px;
+    background-color: var(--bg-colar-white);
+}
+
+.product h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--blue-for-admin);
+    margin-bottom: 30px;
+}
+
+.product__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.product__img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0 55px;
+    background-color: var(--bg-colar);
+    border-radius: 16px;
+}
+
+.product__img img {
+    height: 270px;
+    width: 270px;
+}
+
+.product__card-qism {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.product__content-price {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text-color-black);
+}
+
+.product__content-price-sena {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--text-color-black);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.product__rastamojka {
+    padding: 20px 0;
+}
+
+.product__content-price-ras {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--text-color-black);
+}
+
+.product-xar {
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.product__content-xar {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--text-color-black);
+    margin-bottom: 20px;
+}
+
+.xar-more {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--primary-color-green);
+    cursor: pointer;
+}
+
+.bulibTula {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color-green);
+    margin-bottom: 8px;
+}
+
+.bulibTula div {
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 11px;
+    border-right: 1px solid var(--primary-color-green);
+    cursor: pointer;
+}
+
+.bulibTula div.active {
+    background-color: var(--primary-color-green);
+    color: var(--bg-colar-white);
+}
+
+.bulibTula div:last-child {
+    border-right: none;
+}
+
+.bulibTula div p {
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+}
+
+.foiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foiz h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: var(--text-color-black);
+}
+
+.foiz h4 {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: var(--text-color-black);
+}
+
+.product__aksiya h3 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: var(--primary-color-green);
+}
+
+.product__aksiya-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #bbc2d0;
+}
+
+.product__aksiya-1:last-child {
+    border-bottom: none;
+}
+
+.product__aksiya-1 .checkbox input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.product__aksiya-1 .checkbox input[type="checkbox"]:checked {
+    accent-color: #00c48c;
+}
+
+.aksiya-card {
+    display: flex;
+    align-items: top;
+}
+
+.summa p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #bbc2d0;
+    margin-bottom: 20px;
+}
+
+.summa h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: var(--text-color-black);
+}
+
+.button button {
+    width: 100%;
+    background: var(--primary-color-green);
+    border-radius: 26px;
+    padding: 16px 0 17px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--bg-colar-white);
+    border: none;
+}

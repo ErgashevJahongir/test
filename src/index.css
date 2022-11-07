@@ -1,0 +1,193 @@
+:root {
+    --color-white: #ffffff;
+    --bg-colar-white: #ffffff;
+    --bg-colar: #f3f5f8;
+    --grey-colar: #bbc2d0;
+    --bg-grey-colar: #f7f7f7;
+    --blue-for-admin: #3d639d;
+    --text-color-black: #262728;
+    --button-color-pink: #ff647c;
+    --primary-color-green: #00c48c;
+    --primary-color-yellow: #ffbd95;
+    --blue-for-admin-gradient: #a2aedb;
+    --button-color-pink-gradient: #f39dbd;
+    --primary-color-green-gradient: #aad9ac;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Gilroy-Regular", sans-serif;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    color: #232323;
+    line-height: 1;
+    background-color: var(--bg-colar-white);
+    -webkit-text-size-adjust: 100%;
+}
+
+header,
+nav,
+main,
+aside,
+section,
+article,
+footer {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+p {
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5c5a5a;
+    border-radius: 8px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.containerFluid {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.main .container {
+    background-color: var(--bg-colar);
+    margin: 90px 20px 20px 280px;
+    border-radius: 6px;
+    padding: 20px 28px 30px;
+}
+
+.breadcrumb {
+    margin-bottom: 30px;
+}
+
+.breadcrumb a,
+.breadcrumb i {
+    color: var(--grey-colar);
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.breadcrumb .active {
+    color: var(--primary-color-green);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots li {
+    width: 10px !important;
+    color: #00c48c !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1020px;
+    }
+
+    .containerFluid {
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
+        width: 768px;
+        padding: 0;
+    }
+
+    .containerFluid {
+        width: 368px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+}

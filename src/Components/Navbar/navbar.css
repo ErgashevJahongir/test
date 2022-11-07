@@ -1,0 +1,71 @@
+.navbar {
+    height: 71px;
+    width: 100%;
+    padding: 0 0 0 60px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background-color: #fff;
+}
+
+.navbar .navbar__left .navbar__left-logo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.navbar .navbar__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.profil div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right .notification {
+    margin-right: 35px;
+    position: relative;
+}
+
+.navbar__right .notification .span {
+    display: block;
+    position: absolute;
+    z-index: 22;
+    top: -8px;
+    right: -3px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-color-green);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding-right: 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar__right .profil {
+    color: var(--color-white);
+    background: var(--blue-for-admin);
+    border-radius: 0px 0px 0px 30px;
+    padding: 19px 60px 19px 66px;
+}
+
+.navbar__right .profil p {
+    margin-right: 12px;
+}

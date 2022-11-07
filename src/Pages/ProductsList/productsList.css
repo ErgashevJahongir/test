@@ -1,0 +1,56 @@
+.productList h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--blue-for-admin);
+    margin-bottom: 20px;
+}
+
+.productList .search {
+    background: var(bg-colar-white);
+    border-radius: 26px;
+    width: 100%;
+    padding: 16px 0 15px 20px;
+    border: none;
+}
+.productList .search::placeholder {
+    color: var(--grey-colar);
+    font-size: 16px;
+}
+
+.productList .searchComp {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.productList .searchComp .search-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--primary-color-green);
+    border-radius: 0px 26px 26px 0px;
+}
+
+.productList .searchComp .search-icon i {
+    font-size: 24px;
+    padding: 11.5px 38px;
+    color: var(--color-white);
+}
+
+.productList .products-list {
+    margin-bottom: 30px;
+}
+
+.productList .products-list h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text-color-black);
+    margin-bottom: 20px;
+}
+
+.productList .products-list .products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
